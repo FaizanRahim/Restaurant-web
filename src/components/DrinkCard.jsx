@@ -1,6 +1,4 @@
-import PillButton from "./ui/PillButton.jsx";
-
-export default function DrinkCard({ name, description, sizes, price, calRange, img, to = "/drinks" }) {
+export default function DrinkCard({ name, description, sizes, price, calRange, img }) {
   return (
     <div className="rounded-2xl overflow-hidden bg-white border border-hline flex flex-col">
       <img
@@ -25,11 +23,6 @@ export default function DrinkCard({ name, description, sizes, price, calRange, i
         <div className="flex items-center justify-between mt-auto gap-3">
           <span className="font-extrabold text-base font-heading text-brandred">{price}</span>
           <span className="text-[11px] font-body text-teal font-semibold">{calRange} cal</span>
-        </div>
-        <div className="mt-4">
-          <PillButton to={to} variant="outline" className="w-full justify-center px-4 py-1.5 text-[10px] !rounded-full">
-            Order
-          </PillButton>
         </div>
       </div>
     </div>

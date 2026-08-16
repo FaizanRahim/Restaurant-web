@@ -93,13 +93,10 @@ function LocationCard({ item, onDirections }) {
       </div>
 
       <div className="grid sm:grid-cols-2 gap-3">
-        <button className="rounded-full bg-brandred text-white text-sm font-bold py-2.5 px-4 hover:bg-brandreddark transition-colors">
-          ORDER HERE
-        </button>
         <button
           type="button"
           onClick={() => onDirections(item)}
-          className="rounded-full border border-navy text-navy text-sm font-bold py-2.5 px-4 hover:bg-creamsoft transition-colors"
+          className="rounded-full border border-navy text-navy text-sm font-bold py-2.5 px-4 hover:bg-creamsoft transition-colors sm:col-span-2"
         >
           GET DIRECTIONS
         </button>

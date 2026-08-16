@@ -104,9 +104,6 @@ export default function MilkshakeGalleryPage() {
                 <p className="text-2xl sm:text-3xl font-extrabold text-brandred">$3.99</p>
                 <p className="text-xs sm:text-sm font-bold text-white/90 tracking-widest uppercase">490 Calories</p>
               </div>
-              <button className="mt-6 rounded-full bg-brandred px-6 py-3 text-sm font-bold text-white hover:bg-brandreddark transition-colors">
-                Order Special
-              </button>
             </div>
 
             <div className="rounded-[1.75rem] overflow-hidden bg-white/10 shadow-xl border border-white/20">

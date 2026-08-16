@@ -1,6 +1,4 @@
-import PillButton from "./ui/PillButton.jsx";
-
-export default function ItemCard({ name, rating, cal, price, img, to = "/burgers" }) {
+export default function ItemCard({ name, rating, cal, price, img }) {
   return (
     <div className="rounded-2xl overflow-hidden bg-white border border-hline flex flex-col">
       <img
@@ -18,9 +16,6 @@ export default function ItemCard({ name, rating, cal, price, img, to = "/burgers
         </p>
         <div className="flex items-center justify-between mt-auto">
           <span className="font-extrabold text-base font-heading text-brandred">{price}</span>
-          <PillButton to={to} variant="outline" className="px-4 py-1.5 text-[10px] !rounded-full">
-            Order
-          </PillButton>
         </div>
       </div>
     </div>

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Search, Menu, X } from "lucide-react";
-import PillButton from "./ui/PillButton.jsx";
 import cookoutLogo from "../assets/cookout-logo.svg";
 
 const links = ["Home", "Full Menu", "Tray builder", "Milkshakes", "Locations", "Nutrition", "Blog", "Hours", "About"];
@@ -81,9 +80,6 @@ export default function Header({ activePage = "home", onNavigate }) {
               <Search size={15} className="shrink-0" />
               <span className="font-body truncate">Search menu…</span>
             </div>
-            <PillButton className="px-4 sm:px-6 py-2 text-[11px] sm:text-sm shadow-sm whitespace-nowrap" to="/burgers">
-              Order Now
-            </PillButton>
             <button
               type="button"
               className="lg:hidden w-10 h-10 rounded-full border border-hline bg-white text-navy flex items-center justify-center"

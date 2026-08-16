@@ -28,7 +28,7 @@ const deals = [
   },
 ];
 
-function DealCard({ img, name, cal, protein, price, to }) {
+function DealCard({ img, name, cal, protein, price }) {
   return (
     <div className="rounded-2xl overflow-hidden bg-white border border-hline">
       <img src={img} alt={name} className="w-full h-40 object-cover" />
@@ -41,9 +41,6 @@ function DealCard({ img, name, cal, protein, price, to }) {
         </p>
         <div className="flex items-center justify-between">
           <span className="font-extrabold text-base font-heading text-brandred">{price}</span>
-          <PillButton to={to} variant="outline" className="px-4 py-1.5 text-[10px] !rounded-full">
-            Order
-          </PillButton>
         </div>
       </div>
     </div>
