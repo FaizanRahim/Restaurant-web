@@ -1,0 +1,37 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="flameGrad" x1="63" y1="30" x2="167" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFDA66"/>
+      <stop offset="0.38" stop-color="#F7A93B"/>
+      <stop offset="1" stop-color="#E83F2E"/>
+    </linearGradient>
+    <linearGradient id="redBar" x1="150" y1="345" x2="860" y2="345" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0442A"/>
+      <stop offset="1" stop-color="#C92E1F"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M118 88C110 112 98 134 84 148C71 160 58 168 58 186C58 207 75 224 97 224C121 224 140 204 140 178C140 154 127 132 118 88Z" fill="url(#flameGrad)"/>
+    <path d="M95 126C106 101 118 84 134 70C143 80 151 92 154 105C159 123 154 140 138 151C121 162 101 160 95 126Z" fill="#FFD56E" opacity="0.82"/>
+    <path d="M120 224H86C55 224 30 248 30 279C30 312 55 336 86 336H122C150 336 174 312 174 279C174 248 150 224 120 224Z" fill="url(#flameGrad)"/>
+    <path d="M114 264C102 252 89 256 83 272C77 289 87 306 102 318C110 323 120 326 129 327C152 329 170 313 170 289C170 270 145 246 114 264Z" fill="#F7F3ED" opacity="0.92"/>
+    <path d="M70 219C83 208 103 201 123 201C141 201 158 205 170 216C160 232 150 245 126 250C109 253 85 248 70 219Z" fill="#E32A27" opacity="0.82"/>
+    <path d="M102 337H148V376H102V337Z" fill="#1C2534"/>
+    <path d="M66 336H102V386C102 405 88 420 69 421C63 421 58 420 53 418C42 413 34 405 29 393C25 381 25 366 34 355C41 346 52 340 66 336Z" fill="#1C2534"/>
+    <path d="M148 336H185V385C185 404 172 420 152 421C146 421 141 420 136 418C124 413 116 405 111 393C106 381 106 367 115 356C123 346 134 340 148 336Z" fill="#1C2534"/>
+    <path d="M98 385H152L163 421H88L98 385Z" fill="#1C2534"/>
+  </g>
+
+  <g>
+    <text x="235" y="150" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="64" font-weight="900" letter-spacing="8" fill="#F3A900">THE</text>
+    <g>
+      <text x="160" y="300" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="210" font-weight="900" letter-spacing="2" fill="#1B1D1F" stroke="#1B1D1F" stroke-width="10">COOK OUT</text>
+      <path d="M160 340H860" stroke="url(#redBar)" stroke-width="12" stroke-linecap="round"/>
+    </g>
+    <text x="190" y="450" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="170" font-weight="900" letter-spacing="1.5" fill="#F3A900" stroke="#1B1D1F" stroke-width="7">MENU</text>
+  </g>
+</svg>
